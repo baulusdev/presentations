@@ -1,6 +1,7 @@
 ### my presentations live here
 
-* english: trains n' stuff
+- english: trains 'n stuff
+- geography: geoengineering
 
 made with revealJS
 
