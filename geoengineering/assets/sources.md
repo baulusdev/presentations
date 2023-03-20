@@ -18,3 +18,13 @@ https://blog.ecosia.org/content/images/2020/02/geoengineering-carbon-capture-blo
 
 https://www.swissinfo.ch/resource/image/46910274/landscape_ratio16x9/1920/1080/fb9334bb5860011eb3d72966080201fe/472D9778AC76667D12950F3FF98A008C/climeworks-direct-air-capture---storage-plant-orca_1.jpg
 ![CO2 direct air capture machine](climeworks-direct-air-capture---storage-plant-orca_1.webp)
+
+<br>
+
+https://i0.wp.com/blog.education.nationalgeographic.org/wp-content/uploads/2018/03/rhone-fabric.jpg?ssl=1
+![Alps blanket](rhone-fabric.jpg)
+
+<br>
+
+https://upload.wikimedia.org/wikipedia/commons/f/f7/SPICE_SRM_overview.jpg
+![Aerosol balloon](SPICE_SRM_overview.jpg)
