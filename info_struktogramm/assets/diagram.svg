@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="336" height="116" viewBox="0 0 504 174" preserveAspectRatio="xMinYMin meet">
+<metadata>
+<structo:source xmlns:structo="https://nigjo.github.io/structogramview/">
+<![CDATA[Anweisung 1: mach irgendwas
+Anweisung 2: mach was anderes
+Anweisung 3: mach wieder was anderes]]>
+</structo:source>
+</metadata>
+<style>
+svg{stroke:none;stroke-width:1px;fill:white;}
+line{stroke:black;}
+text{font-family:sans-serif;fill:black;}
+.comment&gt;text{font-style:italic;fill:gray;}
+.whiteShadow{fill:none !important;stroke:white;stroke-width:2px;}
+.casevalue,.blocktitle{fill:gray;font-size:75%;font-style:italic;}
+.caption{font-weight:bold;font-size:1.25em;}
+svg{font-size:24px}</style>
+<g class="diagram" transform="translate(0,0)">
+<rect width="504" height="174"/>
+<g class="sequence" transform="translate(12,12)">
+<line x1="480" y1="0" x2="480" y2="49.5"/>
+<line x1="0" y1="0" x2="0" y2="49.5"/>
+<line x1="0" y1="0" x2="480" y2="0"/>
+<text x="6" y="33" textLength="343.5">Anweisung 1: mach irgendwas</text>
+</g>
+<g class="sequence" transform="translate(12,61.5)">
+<line x1="480" y1="0" x2="480" y2="49.5"/>
+<line x1="0" y1="0" x2="0" y2="49.5"/>
+<line x1="0" y1="0" x2="480" y2="0"/>
+<text x="6" y="33" textLength="367.5">Anweisung 2: mach was anderes</text>
+</g>
+<g class="sequence" transform="translate(12,111)">
+<line x1="480" y1="0" x2="480" y2="51"/>
+<line x1="0" y1="0" x2="0" y2="51"/>
+<line x1="0" y1="0" x2="480" y2="0"/>
+<line x1="0" y1="51" x2="480" y2="51"/>
+<text x="6" y="33" textLength="450">Anweisung 3: mach wieder was anderes</text>
+</g>
+</g>
+</svg>

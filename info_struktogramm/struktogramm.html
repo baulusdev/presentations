@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Informatik Referat - Struktogramm von Luis Herzog</title>
+
+    <meta name="description" content="Ein Referat über Michael Kohlhaas für das Fach Deutsch">
+    <meta name="author" content="baulus">
+
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../reveal.js-library/dist/reset.css">
+    <link rel="stylesheet" href="../reveal.js-library/dist/reveal.css">
+    <link rel="stylesheet" href="../reveal.js-library/dist/theme/black.css" id="theme">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="../reveal.js-library/plugin/highlight/monokai.css">
+</head>
+
+
+<body>
+<div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+
+
+
+
+<section id="struktogramm" class="slide level2" data-auto-animate>
+    <h2>Struktogramme</h2>
+    <p>von Luis</p>
+  
+  </section>
+  <section data-auto-animate>
+    <h2>Struktogramme</h2>
+    <ul>
+      <li class="fragment">Struktogramme können Algorithmen durch eine graphische Darstellung veranschaulichen.</li>
+      <li class="fragment">Struktogramme können Wiederholungen, bedingte Anweisungen und einzelne Anweisungen darstellen.</li>
+    </ul>  
+  
+  </section>
+  <section class="slide level2">
+  
+  <h2 id="bausteine-im-struktogramm">Bausteine im Struktogramm</h2>
+  <ul>
+    <li>Sequenz</li>
+    <li>Bedingungen</li>
+    <li>Wiederholungen</li>
+  </ul>
+  </section>
+  <section class="slide level2">
+  
+  <h4 id="sequenz">Sequenz</h4>
+  <ul>
+  <li class="fragment">Anweisungen werden durch Rechtecke dargestellt</li>
+  <li class="fragment">eine Sequenz ist die Abfolge mehrerer Anweisungen</li>
+  <li class="fragment">Diese wird durch übereinandergestapelte Rechtecke dargestellt</li>
+  </ul>
+  <p><img style="border-radius: 10px;" data-src="assets/diagram.svg" /></p>
+  </section>
+  <section class="slide level2">
+  
+  <h4 id="bedingung">Bedingung</h4>
+  <ul>
+  <li class="fragment">Eine Bedingung, wie z.B. if…else wird durch ein gleichschenkliges Dreieck dargestellt, dessen Spitze nach unten zeigt</li>
+  <li class="fragment">Die Bedingungen schmiegen sich an die jeweiligen Schenkel</li>
+  </ul>
+  <p><img style="border-radius: 10px;" data-src="assets/diagram(1).svg" /></p>
+  </section>
+  <section class="slide level2">
+  
+  <h4 id="wiederholung">Wiederholung</h4>
+  <div style="display: flex; align-items: center; ">
+    <div style="font-size: 30px;">
+      <ul>
+        <li class="fragment">Wiederholung werden durch ein um 90° gedrehtes “L” dargestellt</li>
+        <li class="fragment">Dieses “L” umschließt die Sequenz, die darin enthalten ist</li>
+        </ul>
+    </div>
+    <div style="margin-left: 70px;">
+      <h5 id="while">while</h5>
+  <p><img style="border-radius: 10px;" data-src="assets/diagram(3).svg" /></p>
+  <h5 id="for">for</h5>
+  <p><img style="border-radius: 10px;" data-src="assets/diagram(4).svg" /></p>
+    </div>
+  </div>
+  
+  </section>
+  <section>
+    <div style="border-width: 20px; border-color: aliceblue;">
+      <h2>Beispiel</h2>
+    </div>
+  </section>
+  <section>
+    <img style="border-radius: 10px;" src="assets/diagram(6).svg" alt="">
+  </section>
+  <section>
+    <p>Embedded Editor</p>
+    <p>by nigjo</p>
+    <a href="https://nigjo.github.io/structogramview/" target="_blank">Link</a>
+    <p>(auf Vertical 'Select' klicken für ein besseres Erlebnis)</p>
+  </section>
+  <section>
+    <iframe style="width: 100vw; height: 40vh; border-radius: 10px; margin: 0px;" src="https://nigjo.github.io/structogramview/" frameborder="0"></iframe>
+  
+  </section>
+</div>
+</div>
+
+<script src="../reveal.js-library/dist/reveal.js"></script>
+<script src="../reveal.js-library/plugin/zoom/zoom.js"></script>
+<script src="../reveal.js-library/plugin/notes/notes.js"></script>
+<script src="../reveal.js-library/plugin/search/search.js"></script>
+<script src="../reveal.js-library/plugin/markdown/markdown.js"></script>
+<script src="../reveal.js-library/plugin/highlight/highlight.js"></script>
+<script>
+
+    // Also available as an ES module, see:
+    // https://revealjs.com/initialization/
+
+    Reveal.initialize({
+        controls: false,
+        progress: false,
+        center: true,
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight]
+    });
+
+</script>
+</body>
+
+<style>
+    .line {
+        display: flex;
+            gap: 4%;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+    }
+</style>
+</html>
