@@ -22,9 +22,11 @@ This is the repository where my presentations live. These are mostly school pres
 	* [Netzwerkanalyse mit Wireshark: Was passiert im Netzwerk? 🇩🇪](./w-seminar/), View it [here](https://baulusdev.github.io/presentations/w-seminar/)
 
 
-made with revealJS
+***
 
-https://github.com/hakimel/reveal.js/
+All presentations were made with [revealjs](https://github.com/hakimel/reveal.js/). Thanks to all the contributors for making such a powerful tool. 
+
+
 
 
 
