@@ -56,17 +56,27 @@
           <li>Jede Schicht benutzt ihre eigenes Protokoll</li>
         </ol>
       </section>
-      
-      
     </section>
-    
+    <section>
+      <section>
+        <p style="text-decoration: underline;">OSI-Modell</p>
+        <div style="display: flex; align-items: center; gap: 50px;">
+          <ul style="font-size: 35px;">
+            <li><q>Open System Interconnect Model</q></li>
+            <li>1983 von Internationalen Organisation für Normung veröffentlicht</li>
+            <li>Standardisierung der Komponenten im Netzwerk</li>
+            <li>Einteilung in 7 Schichten</li>
+          </ul>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/ISO_Logo_%28Red_square%29.svg/651px-ISO_Logo_%28Red_square%29.svg.png" alt="" width="300px">
+        </div>
+      </section>
+    </section>
     <section data-auto-animate>
       <p style="text-decoration: underline;">Vierstufiges Schichtenmodell</p>
-      
       <p class="r-frame" style="color: orange">Anwendungsschicht</p>
       <p class="r-frame" style="color: red;">Transportschicht</p>
       <p class="r-frame" style="color: rebeccapurple;">Netzwerkschicht</p>
-      <p class="r-frame" style="color: blue;">Bitübertragungsschicht</p>
+      <p class="r-frame" style="color: rgb(0, 128, 255)">Bitübertragungsschicht</p>
 
     </section>
     <section data-auto-animate>
@@ -77,10 +87,11 @@
       <p class="r-frame" style="color: red">Transportschicht</p>
       <p class="r-frame" style="color: rebeccapurple">Netzwerkschicht</p>
       <p class="r-frame" style="color: rebeccapurple">Sicherungsschicht</p>
-      <p class="r-frame" style="color: blue">Bitübertragungsschicht</p>
+      <p class="r-frame" style="color: rgb(0, 128, 255)">Bitübertragungsschicht</p>
 
 
     </section>
+    
     <section data-auto-animate="">
       <p class="r-frame" style="color: orange">Anwendungsschicht</p>
       <br>
@@ -144,15 +155,15 @@
     <section>
       <p style="text-decoration: underline;">Beispiel</p>
       <pre><code>
-        Fortschritt: |||||||||||||
+        Fortschritt: ||||||||||||| [13/20]
       </code></pre>
       ↓
       <pre><code>
-        Fortschritt: ||||||||||
+        Fortschritt: |||||||||| [10/20]
       </code></pre>
       ↓
       <pre><code>
-        Fortschritt: ||||||||||||||||||||
+        Fortschritt: |||||||||||||||||||| [20/20]
       </code></pre>
     </section>
     <section>
@@ -205,7 +216,7 @@
       <img src="assets/Netzwerk_2.png" alt="">
     </section>
     <section>
-      <p class="r-frame" style="color: blue">Bitübertragungsschicht</p>
+      <p class="r-frame" style="color: rgb(0, 128, 255)">Bitübertragungsschicht</p>
       <br>
       <ul>
         <li>Daten sind als Bitstrom vorhanden (0110001110011)</li>
@@ -229,6 +240,12 @@
       </code></pre>
     </section>
     <section>
+      <h2 class="r-fit-text" style="margin-bottom: 0;">
+        Danke
+      </h2>
+      <h2 class="r-fit-text" style="margin-top: 0;">Für eure/Ihre Aufmerksamkeit</h2>
+    </section>
+    <section>
       <pre><code>
         01000100 01100001 01101110 01101011 01100101
         00100000 01100110 11000011 10111100 01110010
@@ -238,12 +255,6 @@
         01101101 01101011 01100101 01101001 01110100
       </code></pre>
       <p style="font-size: small;">(Danke für eure/Ihre Aufmerksamkeit)</p>
-    </section>
-    <section>
-      <h2 class="r-fit-text" style="margin-bottom: 0;">
-        Danke
-      </h2>
-      <h2 class="r-fit-text" style="margin-top: 0;">Für eure/Ihre Aufmerksamkeit</h2>
     </section>
 
   </div>
@@ -262,6 +273,7 @@
 
     Reveal.initialize({
         
+        progress: true,
         center: true,
         hash: true,
 
