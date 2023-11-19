@@ -33,38 +33,217 @@
     <section>
       <h1 class="r-fit-text">OSI-Modell</h1>
     </section>
-    <section>
-      <p>Hier fehlt noch was 😑</p>
+    <section data-auto-animate="">
+      <section>
+        <p style="text-decoration: underline;">Vierstufiges Schichtenmodell</p>
+      
+          
+        
+          <blockquote>Ein Rechner muss nicht die komplette Struktur des Netzwerks kennen</blockquote>
+          <ul>
+            <li>Verschiedene Komponenten im Netzwerk</li>
+            <li>Standartisierte Kommmunikation</li>
+          </ul>
+          <div style="display: flex; justify-content: center;">
+            ↓
+          </div>
+      </section>
+      <section>
+        <ol start="1">
+          <li>Einteilung der Kommunikation in vier Schichten</li>
+          <li>Jede Schicht hat eine spezielle Aufgabe</li>
+          <li>Geeignete Schnittstellen werden benötigt</li>
+          <li>Jede Schicht benutzt ihre eigenes Protokoll</li>
+        </ol>
+      </section>
+      
+      
     </section>
-    <section>
-      <h2>Vierstufiges Schichtenmodell</h2>
-      <ul>
-        <li>Nicht jeder Rechner muss die komplette Struktur des Netzwerks kennen</li>
-        <li>Einteilung der Kommunikation in vier Schichten</li>
-        <li>Jede Schicht hat eine spezielle Aufgabe</li>
-        <li>Geeignete Schnittstellen werden benötigt (Protokolle)</li>
-        <li>Jede Schicht benutzt ihr eigenes Protokoll</li>
-      </ul>
+    
+    <section data-auto-animate>
+      <p style="text-decoration: underline;">Vierstufiges Schichtenmodell</p>
+      
+      <p class="r-frame" style="color: orange">Anwendungsschicht</p>
+      <p class="r-frame" style="color: red;">Transportschicht</p>
+      <p class="r-frame" style="color: rebeccapurple;">Netzwerkschicht</p>
+      <p class="r-frame" style="color: blue;">Bitübertragungsschicht</p>
+
     </section>
     <section data-auto-animate>
-      <p class="r-frame">Anwendungsschicht</p>
-      <p class="r-frame">Transportschicht</p>
-      <p class="r-frame">Netzwerkschicht</p>
-      <p class="r-frame">Bitübertragungsschicht</p>
+      <p style="text-decoration: underline;">OSI-Modell</p>
+      <p class="r-frame" style="color: orange">Anwendungsschicht</p>
+      <p class="r-frame" style="color: orange">Präsentationsschicht</p>
+      <p class="r-frame" style="color: orange">Sitzungsschicht</p>
+      <p class="r-frame" style="color: red">Transportschicht</p>
+      <p class="r-frame" style="color: rebeccapurple">Netzwerkschicht</p>
+      <p class="r-frame" style="color: rebeccapurple">Sicherungsschicht</p>
+      <p class="r-frame" style="color: blue">Bitübertragungsschicht</p>
+
+
     </section>
     <section data-auto-animate="">
-      <p class="r-frame">Anwendungsschicht</p>
-      <p class="r-frame">Präsentationsschicht</p>
-      <p class="r-frame">Sitzungsschicht</p>
-      <p class="r-frame">Transportschicht</p>
-      <p class="r-frame">Netzwerkschicht</p>
-      <p class="r-frame">Sicherungsschicht</p>
-      <p class="r-frame">Bitübertragungsschicht</p>
+      <p class="r-frame" style="color: orange">Anwendungsschicht</p>
+      <br>
+      <ul>
+        <li>Darstellung der Daten für den Nutzer</li>
+        <li>Darstellung von Bildern</li>
+        <li>Interpretation der Daten</li>
+        <li>Umsetzung von Funktionen</li>
+      </ul>
     </section>
     <section>
-      <h2 class="r-fit-text">
+      <p style="text-decoration: underline;">Beispiel</p>
+      <pre><code>
+          <p><u>Hallo</u></p> 
+          <p><b> Das ist Text, der durch die </b>
+          <em>Anwendungsschicht</em> übertragen wurde.</p>
+      </code></pre>
+      ↓
+      <div style="display: flex; justify-content: center;">
+        <div class="r-frame" style="width: max-content;">
+          <p><u>Hallo</u></p> 
+          <p><b> Das ist Text, der durch die </b><em>Anwendungsschicht</em> übertragen wurde.</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <p class="r-frame" style="color: orange">Präsentationsschicht</p>
+      <br>
+      <ul>
+        <li>Aufbereitung der Daten für nächste Schicht</li>
+        <li>Verschlüsselung/Entschlüsselung</li>
+        <li>Komprimierung/Dekomprimierung</li>
+      </ul>
+    </section>
+    <section>
+      <p style="text-decoration: underline;">Beispiel</p>
+      <pre><code>
+        PHByZT48Y29kZT4KICAgICAgICAgIDxwPjx1PkhhbGxv
+        PC91PjwvcD4gCiAgICAgICAgICA8cD48Yj4gRGFzIGlz
+        dCBUZXh0LCBkZXIgZHVyY2ggZGllIDwvYj4KICAgICAg
+        ICAgIDxlbT5BbndlbmR1bmdzc2NoaWNodDwvZW0+IMO8
+        YmVydHJhZ2VuIHd1cmRlLjwvcD4KICAgICAgPC9jb2Rl
+        PjwvcHJlPg==
+      </code></pre>
+      ↓
+      <pre><code>
+        <p><u>Hallo</u></p> 
+        <p><b> Das ist Text, der durch die </b>
+        <em>Anwendungsschicht</em> übertragen wurde.</p>
+    </code></pre>
+    </section>
+    <section>
+      <p class="r-frame" style="color: orange">Sitzungsschicht</p>
+      <br>
+      <ul>
+        <li>Öffnen und schließen der Kommunikation</li>
+        <li>Einteilung in der Kommunikation Sitzungen</li>
+        <li>Checkpointsystem</li>
+      </ul>
+    </section>
+    <section>
+      <p style="text-decoration: underline;">Beispiel</p>
+      <pre><code>
+        Fortschritt: |||||||||||||
+      </code></pre>
+      ↓
+      <pre><code>
+        Fortschritt: ||||||||||
+      </code></pre>
+      ↓
+      <pre><code>
+        Fortschritt: ||||||||||||||||||||
+      </code></pre>
+    </section>
+    <section>
+      <p class="r-frame" style="color: red">Transportschicht</p>
+      <br>
+      <ul>
+        <li>Zerlegen der Pakete in Segmente/<br>
+        Zusammensetzen der Segmente in Pakete</li>
+        <li>Fluss- und Fehlersteuerung</li>
+        <li>Festlegung der Übertragunsgeschwindigkeit</li>
+      </ul>
+    </section>
+    <section>
+      <p style="text-decoration: underline;">Beispiel</p>
+      <pre><code>
+        <p><u>Hallo</u></p> 
+        <p><b> Das ist Text, der durch die </b>
+        <em>Anwendungsschicht</em> übertragen wurde.</p>
+      </code></pre>
+      ↓
+      <pre><code>
+        <div><p><u>Hallo</u></p></div>
+      </code></pre>
+      <pre><code>
+        <div><p><b>Das ist Text, der durch </b></div> 
+      </code></pre>
+      <pre><code>
+        <div>die </b><em>Anwendungsschicht</em> übertragen wurde.</p></div> 
+      </code></pre>
+    </section>
+    <section>
+      <p class="r-frame" style="color: rebeccapurple">Netzwerkschicht</p>
+      <br>
+      <ul>
+        <li>Ermöglicht die Kommunikation über verschiedene miteinander verbundene Netzwerke</li>
+        <li>Der physikalisch beste Weg wird gewählt</li>
+        <li>Paket wird mit weiteren Informationen versehen um Routing zu ermöglichen</li>
+      </ul>
+    </section>
+    <section>
+      <p class="r-frame" style="color: rebeccapurple">Sicherungsschicht</p>
+      <br>
+      <ul>
+        <li>Der Netzwerkschicht ähnlich</li>
+        <li>Für den Verkehr im lokalen Netzwerk zuständig</li>
+      </ul>
+    </section>
+    <section data-background-color="white">
+      <p style="text-decoration: underline;">Beispiel</p>
+      <img src="assets/Netzwerk_2.png" alt="">
+    </section>
+    <section>
+      <p class="r-frame" style="color: blue">Bitübertragungsschicht</p>
+      <br>
+      <ul>
+        <li>Daten sind als Bitstrom vorhanden (0110001110011)</li>
+        <li>Festlegung der Gegebenheiten des Übertragungsmediums</li>
+
+      </ul>
+    </section>
+    <section>
+      <p style="text-decoration: underline;">Beispiel</p>
+      <pre><code>
+        00111100 01110000 00111110 00111100 01110101 00111110 01001000 01100001 01101100 01101100 01101111 00111100 00101111 01110101 00111110 00111100 00101111 01110000 00111110 00100000 00001010 00100000 00100000 00100000 00100000 00100000 00100000 00100000 00100000 00111100 01110000 00111110 00111100 01100010 00111110 00100000 01000100 01100001 01110011 00100000 01101001 01110011 01110100 00100000 01010100 01100101 01111000 01110100 00101100 00100000 01100100 01100101 01110010 00100000 01100100 01110101 01110010 01100011 01101000 00100000 01100100 01101001 01100101 00100000 00111100 00101111 01100010 00111110 00001010 00100000 00100000 00100000 00100000 00100000 00100000 00100000 00100000 00111100 01100101 01101101 00111110 01000001 01101110 01110111 01100101 01101110 01100100 01110101 01101110 01100111 01110011 01110011 01100011 01101000 01101001 01100011 01101000 01110100 00111100 00101111 01100101 01101101 00111110 00100000 11000011 10111100 01100010 01100101 01110010 01110100 01110010 01100001 01100111 01100101 01101110 00100000 01110111 01110101 01110010 01100100 01100101 00101110 00111100 00101111 01110000 00111110
+      </code></pre>
+      ↓
+      <pre><code>
+        PHByZT48Y29kZT4KICAgICAgICAgIDxwPjx1PkhhbGxv
+        PC91PjwvcD4gCiAgICAgICAgICA8cD48Yj4gRGFzIGlz
+        dCBUZXh0LCBkZXIgZHVyY2ggZGllIDwvYj4KICAgICAg
+        ICAgIDxlbT5BbndlbmR1bmdzc2NoaWNodDwvZW0+IMO8
+        YmVydHJhZ2VuIHd1cmRlLjwvcD4KICAgICAgPC9jb2Rl
+        PjwvcHJlPg==
+      </code></pre>
+    </section>
+    <section>
+      <pre><code>
+        01000100 01100001 01101110 01101011 01100101
+        00100000 01100110 11000011 10111100 01110010
+        00100000 01100101 01110101 01110010 01100101
+        00100000 01000001 01110101 01100110 01101101
+        01100101 01110010 01101011 01110011 01100001
+        01101101 01101011 01100101 01101001 01110100
+      </code></pre>
+      <p style="font-size: small;">(Danke für eure/Ihre Aufmerksamkeit)</p>
+    </section>
+    <section>
+      <h2 class="r-fit-text" style="margin-bottom: 0;">
         Danke
       </h2>
+      <h2 class="r-fit-text" style="margin-top: 0;">Für eure/Ihre Aufmerksamkeit</h2>
     </section>
 
   </div>
