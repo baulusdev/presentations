@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Musik Referat - Entartete Musik</title>
+    <title>Referat: Netzwerkanalyse mit Wireshark - Was passiert im Netzwerk</title>
 
-    <meta name="description" content="Ein Referat über entartete Musik im Nationalsozialismus">
+    <meta name="description" content="Ein Referat über Netzwerke und eine Wireshark Analyse">
     <meta name="author" content="baulus">
 
 
@@ -30,59 +30,78 @@
 
     <!-- Any section element inside of this container is displayed as a slide -->
     <div class="slides">
+        <section>
+            <p class="r-fit-text">Mit wie vielen Netzwerken habt ihr euch heute schon verbunden?</p>
+        </section>
         <section data-auto-animate>
-            <p>Netzwerkanalyse</p>
-            <p>mit Wireshark</p>
+                <p style="font-size: 100px;">Netzwerkanalyse</p>
+                <p style="font-size: 100px;">mit Wireshark</p>
         </section> 
         <section data-auto-animate>
-            <p>Netzwerkanalyse</p>
-            <p>Was passiert im Netzwerk?</p>
-            <p>mit Wireshark</p>
+                <p style="opacity: 0.05; font-size: 100px;">Netzwerkanalyse</p>
+                <p style="text-decoration: underline; font-size: 50px;">Was passiert im Netzwerk?</p>
+                <p style="opacity: 0.05; font-size: 100px;">mit Wireshark</p>
+        </section>
+        
+        <section id="k1">
+            <p style="text-decoration: underline;">Kapitel 1:</p>
+            <h1 style="margin-top: 0;" class="r-fit-text">Daten</h1>
         </section>
         <section>
-
+            <blockquote>"Was sind Daten?"</blockquote>
+            <p style="font-size: small;">Luis Herzog</p>
         </section>
         <section>
+            <div class="r-stack">
+                <figure class="fragment custom blur">
+                    <blockquote>"[Daten sind] Messwerte, die im Rahmen von Befragungen, Beobachtungen oder Experimenten erhoben werden"</blockquote>
+                    <p style="font-size: small;">Statista.de</p>
+                </figure>
+                <figure class="fragment fade-in">
+                    <blockquote>[Daten sind] elektronisch gespeicherte Zeichen, Angaben und Informationen</blockquote>
+                    <p style="font-size: small;">Duden</p>
+                </figure>
+            </div>  
+        </section>
+        <section>
+            <p style="text-decoration: underline;">Kapitel 2.1:</p>
+            <h1 style="margin-top: 0;" class="r-fit-text">Metadaten</h1>
+        </section>
+        <section>
+            <p>Metadaten werden für das:</p>
+            <ul>
+                <li>Einordnen</li>
+                <li>Katalogisieren</li>
+                <li>Analysieren</li>
+            </ul>
+            <p>verwendet</p>
+        </section>
+        <section>
+            <p class="r-fit-text">TODO</p>
+        </section>
+        <section id="k2">
+            <p style="text-decoration: underline;">Kapitel 2:</p>
+            <h1 style="margin-top: 0;" class="r-fit-text">Netzwerk</h1>
+        </section>
+        <section>
+            <p class="r-fit-text">TODO</p>
+        </section>
+        <section>
+            <p style="text-decoration: underline;">Kapitel 2.3:</p>
             <h1 class="r-fit-text">OSI-Modell</h1>
-          </section>
-          <section data-auto-animate="">
-            <section>
-              <p style="text-decoration: underline;">Vierstufiges Schichtenmodell</p>
-            
-                
-              
-                <blockquote>Ein Rechner muss nicht die komplette Struktur des Netzwerks kennen</blockquote>
-                <ul>
-                  <li>Verschiedene Komponenten im Netzwerk</li>
-                  <li>Standartisierte Kommmunikation</li>
-                </ul>
-                <div style="display: flex; justify-content: center;">
-                  ↓
-                </div>
-            </section>
-            <section>
-              <ol start="1">
-                <li>Einteilung der Kommunikation in vier Schichten</li>
-                <li>Jede Schicht hat eine spezielle Aufgabe</li>
-                <li>Geeignete Schnittstellen werden benötigt</li>
-                <li>Jede Schicht benutzt ihre eigenes Protokoll</li>
-              </ol>
-            </section>
-          </section>
-          <section>
-            <section>
-              <p style="text-decoration: underline;">OSI-Modell</p>
-              <div style="display: flex; align-items: center; gap: 50px;">
-                <ul style="font-size: 35px;">
-                  <li><q>Open System Interconnect Model</q></li>
-                  <li>1983 von Internationalen Organisation für Normung veröffentlicht</li>
-                  <li>Standardisierung der Komponenten im Netzwerk</li>
-                  <li>Einteilung in 7 Schichten</li>
-                </ul>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/ISO_Logo_%28Red_square%29.svg/651px-ISO_Logo_%28Red_square%29.svg.png" alt="" width="300px">
-              </div>
-            </section>
-          </section>
+        </section>
+        <section data-auto-animate="">
+            <p style="text-decoration: underline;">OSI-Modell</p>
+            <div style="display: flex; align-items: center; gap: 50px;">
+            <ul style="font-size: 35px;">
+                <li><q>Open System Interconnect Model</q></li>
+                <li>1983 von Internationalen Organisation für Normung veröffentlicht</li>
+                <li>Standardisierung der Komponenten im Netzwerk</li>
+                <li>Einteilung in 7 Schichten</li>
+            </ul>
+            </div>
+        </section>
+          
           
           <section data-auto-animate>
             <p style="text-decoration: underline;">OSI-Modell</p>
@@ -248,6 +267,20 @@
                 &nbsp
             </code></pre>
           </section>
+          <section id="k3">
+            <p style="text-decoration: underline;">Kapitel 3:</p>
+            <h1 style="margin-top: 0;" class="r-fit-text">Wireshark</h1>
+        </section>
+        <section>
+            <p class="r-fit-text">TODO</p>
+        </section>
+          <section id="k4">
+            <p style="text-decoration: underline;">Kapitel 4:</p>
+            <h1 style="margin-top: 0;" class="r-fit-text">Analyse</h1>
+        </section>
+        <section>
+            <p class="r-fit-text">TODO</p>
+        </section>
           <section>
             <h2 class="r-fit-text" style="margin-bottom: 0;">
               Danke
@@ -293,12 +326,12 @@
 </body>
 
 <style>
-    .line {
-        display: flex;
-            gap: 4%;
-            justify-content: center;
-            align-items: center;
-            margin: auto;
+    .fragment.blur {
+      filter: none;
     }
-</style>
+    .fragment.blur.visible {
+      filter: blur(15px);
+    }
+  </style>
+  
 </html>
