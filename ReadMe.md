@@ -5,21 +5,21 @@ This is the repository where my presentations live. These are mostly school pres
 ## Presentations:
 
 * Deutsch:
-	* [Buchpräsentation: Michael Kohlhaas 🇩🇪](https://github.com/baulusdev/presentations/blob/deutsch/michael-kohlhaas/), View it [here](https://baulusdev.github.io/presentations/deutsch/michael-kohlhaas/)
-	* [Buchpräsentation: Fräulein Else 🇩🇪](https://github.com/baulusdev/presentations/blob/deutsch/fraeulein-else/), View it [here](https://baulusdev.github.io/presentations/deutsch/fraeulein-else/)
+	* [Buchpräsentation: Michael Kohlhaas 🇩🇪](https://github.com/baulusdev/presentations/tree/main/deutsch/michael-kohlhaas/), View it [here](https://baulusdev.github.io/presentations/deutsch/michael-kohlhaas/)
+	* [Buchpräsentation: Fräulein Else 🇩🇪](https://github.com/baulusdev/presentations/tree/main/deutsch/fraeulein-else/), View it [here](https://baulusdev.github.io/presentations/deutsch/fraeulein-else/)
 * Englisch:
-	* [Rail systems in the US and Europe 🇬🇧](https://github.com/baulusdev/presentations/blob/englisch/rail-systems/), View it [here](https://baulusdev.github.io/presentations/englisch/rail-systems/)
+	* [Rail systems in the US and Europe 🇬🇧](https://github.com/baulusdev/presentations/tree/main/englisch/rail-systems/), View it [here](https://baulusdev.github.io/presentations/englisch/rail-systems/)
 * Fotografie:
-	* [Fotos der Schule 🇩🇪](https://github.com/baulusdev/presentations/blob/fotografie/foto-praesentation/), View it [here](https://baulusdev.github.io/presentations/fotografie/foto-praesentation/)
+	* [Fotos der Schule 🇩🇪](https://github.com/baulusdev/presentations/tree/main/fotografie/foto-praesentation/), View it [here](https://baulusdev.github.io/presentations/fotografie/foto-praesentation/)
 * Geografie:
-	* [Geoengineering 🇩🇪](https://github.com/baulusdev/presentations/blob/geografie/geoengineering/), View it [here](https://baulusdev.github.io/presentations/geografie/geoengineering/)
+	* [Geoengineering 🇩🇪](https://github.com/baulusdev/presentations/tree/main/geografie/geoengineering/), View it [here](https://baulusdev.github.io/presentations/geografie/geoengineering/)
 * Informatik:
-	* [Struktogramme 🇩🇪](https://github.com/baulusdev/presentations/blob/informatik/struktogramme/), View it [here](https://baulusdev.github.io/presentations/informatik/struktogramme/)
-	* [OSI-Modell 🇩🇪](https://github.com/baulusdev/presentations/blob/informatik/osi-modell/), View it [here](https://baulusdev.github.io/presentations/informatik/osi-modell/)
+	* [Struktogramme 🇩🇪](https://github.com/baulusdev/presentations/tree/main/informatik/struktogramme/), View it [here](https://baulusdev.github.io/presentations/informatik/struktogramme/)
+	* [OSI-Modell 🇩🇪](https://github.com/baulusdev/presentations/tree/main/informatik/osi-modell/), View it [here](https://baulusdev.github.io/presentations/informatik/osi-modell/)
 * Musik:
-	* [Verfemte Musik 🇩🇪](https://github.com/baulusdev/presentations/blob/musik/verfemte-musik), View it [here](https://baulusdev.github.io/presentations/musik/verfemte-musik/)
+	* [Verfemte Musik 🇩🇪](https://github.com/baulusdev/presentations/tree/main/musik/verfemte-musik), View it [here](https://baulusdev.github.io/presentations/musik/verfemte-musik/)
 * W-Seminar:
-	* [Netzwerkanalyse mit Wireshark: Was passiert im Netzwerk? 🇩🇪](https://github.com/baulusdev/presentations/blob/w-seminar/), View it [here](https://baulusdev.github.io/presentations/w-seminar/)
+	* [Netzwerkanalyse mit Wireshark: Was passiert im Netzwerk? 🇩🇪](https://github.com/baulusdev/presentations/tree/main/w-seminar/), View it [here](https://baulusdev.github.io/presentations/w-seminar/)
 
 
 ***
