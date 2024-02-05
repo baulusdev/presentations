@@ -20,6 +20,8 @@ This is the repository where my presentations live. These are mostly school pres
 	* [Verfemte Musik 🇩🇪](https://github.com/baulusdev/presentations/tree/main/musik/verfemte-musik), View it [here](https://baulusdev.github.io/presentations/musik/verfemte-musik/)
 * W-Seminar:
 	* [Netzwerkanalyse mit Wireshark: Was passiert im Netzwerk? 🇩🇪](https://github.com/baulusdev/presentations/tree/main/w-seminar/), View it [here](https://baulusdev.github.io/presentations/w-seminar/)
+* Geschichte:
+	* [Der Weg zum Staat Israel 🇩🇪](https://github.com/baulusdev/presentations/tree/main/geschichte/israel/), View it [here](https://baulusdev.github.io/presentations/geschichte/israel/)
 
 
 ***
