@@ -1,6 +1,6 @@
 # Presentations by Luis
 
-This is the repository where my presentations live. These are mostly school presentations and subjects range widely (most are in german though). Most presentations are old and have not been properly researched and sources are not always cited. Reader discretion is advised. Have fun reading them presentations 😀.
+This is the repository where my presentations live. These are mostly school presentations and subjects range widely (most are in german though). Most presentations are old and have not been properly researched and sources are not always cited. Reader discretion is advised. Have fun reading my presentations 😀.
 
 ## Presentations:
 
