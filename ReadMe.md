@@ -13,6 +13,7 @@ This is the repository where my presentations live. These are mostly school pres
 	* [Fotos der Schule 🇩🇪](https://github.com/baulusdev/presentations/tree/main/fotografie/foto-praesentation/), View it [here](https://baulusdev.github.io/presentations/fotografie/foto-praesentation/)
 * Geografie:
 	* [Geoengineering 🇩🇪](https://github.com/baulusdev/presentations/tree/main/geografie/geoengineering/), View it [here](https://baulusdev.github.io/presentations/geografie/geoengineering/)
+	* [Wirtschaftsräumliche Disparitäten in Deutschland 🇩🇪](https://github.com/baulusdev/presentations/tree/main/geografie/deutschland-disparitaeten/), View it [here](https://baulusdev.github.io/presentations/geografie/deutschland-disparitaeten/)
 * Informatik:
 	* [Struktogramme 🇩🇪](https://github.com/baulusdev/presentations/tree/main/informatik/struktogramme/), View it [here](https://baulusdev.github.io/presentations/informatik/struktogramme/)
 	* [OSI-Modell 🇩🇪](https://github.com/baulusdev/presentations/tree/main/informatik/osi-modell/), View it [here](https://baulusdev.github.io/presentations/informatik/osi-modell/)
