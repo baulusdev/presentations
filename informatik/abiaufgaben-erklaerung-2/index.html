@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Example presentation</title>
+
+    <meta name="description" content="example presentation">
+    <meta name="author" content="Luis Herzog">
+
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../../reveal.js-library/dist/reset.css">
+    <link rel="stylesheet" href="../../reveal.js-library/dist/reveal.css">
+    <link rel="stylesheet" href="../../reveal.js-library/dist/theme/black.css" id="theme">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="../../reveal.js-library/plugin/highlight/monokai.css">
+    
+</head>
+
+
+<body>
+<div class="reveal">
+  <!-- Any section element inside of this container is displayed as a slide -->
+  <div class="slides">
+    <section id="start" data-auto-animate="">
+        <h3>Informatik Abituraufgabe Erklärung</h3>
+    </section>
+    <section data-auto-animate>
+        <h3 style="opacity: 0.2; letter-spacing: 10px;">Informatik Abituraufgabe Erklärung</h3>
+        <p>Abitur 2022, Teil III</p>
+        <p>Aufgabe 4a), b)</p>
+    </section>
+    <section data-auto-animate="">
+        <pre><code data-noescape data-trim="" data-line-numbers="|3,6,14,19" style=""> 
+            Methode sortieren(array)
+                n = array.länge
+                wiederhole solange n größer 1
+                    i=0
+                    tauschen = falsch
+                    wiederhole solange i kleiner n − 1
+                        wenn array[i] größer array[i + 1] dann
+                            c = array[i]
+                            array[i] = array[i + 1]
+                            array[i + 1] = c
+                            tauschen = wahr
+                        endeWenn
+                        i=i+1
+                    endeWiederhole
+                    wenn tauschen gleich falsch dann
+                        beende sortieren
+                    endeWenn
+                    n=n−1
+                endeWiederhole
+            endeMethode
+        </code></pre>
+    </section>
+    <section>
+        <p>→ Bubblesort Algorithmus</p>
+    </section>
+    <section>
+        <blockquote>Schrittweise Ausführung bei folgender Zahlenreihe: <span class="r-frame">&nbsp;8756&nbsp;</span></blockquote> 
+    </section>
+    
+    <section data-auto-animate="">
+        <p>
+            <ul style="list-style-type: none; display: flex; justify-content: center; gap: 20px;">
+                <li>8</li>
+                <li>7</li>
+                <li>6</li>
+                <li>5</li>
+            </ul>
+        </p>
+    </section>
+    <section data-auto-animate="">
+        <p><ul style="list-style-type: none; display: flex; justify-content: center; gap: 20px;">
+            <li>7</li>
+            <li>8</li>
+            <li>6</li>
+            <li>5</li>
+        </ul></p>
+    </section>
+    <section data-auto-animate="">
+        <p><ul style="list-style-type: none; display: flex; justify-content: center; gap: 20px;">
+            <li>7</li>
+            <li>6</li>
+            <li>8</li>
+            <li>5</li>
+        </ul></p>
+    </section><section data-auto-animate="">
+        <p><ul style="list-style-type: none; display: flex; justify-content: center; gap: 20px;">
+            <li>7</li>
+            <li>6</li>
+            <li>5</li>
+            <li>8</li>
+        </ul></p>
+    </section><section data-auto-animate="">
+        <p><ul style="list-style-type: none; display: flex; justify-content: center; gap: 20px;">
+            <li>6</li>
+            <li>7</li>
+            <li>5</li>
+            <li>8</li>
+        </ul></p>
+    </section><section data-auto-animate="">
+        <p><ul style="list-style-type: none; display: flex; justify-content: center; gap: 20px;">
+            <li>6</li>
+            <li>5</li>
+            <li>7</li>
+            <li>8</li>
+        </ul></p>
+    </section>
+    <section data-auto-animate="" data-transition="none">
+        <p><ul style="list-style-type: none; display: flex; justify-content: center; gap: 20px;">
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+        </ul></p>
+    </section>
+    <section data-auto-animate="">
+        <p><ul class="r-frame" style="list-style-type: none; display: flex; justify-content: center; gap: 60px;">
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+        </ul></p>
+        <p>Feld ist aufsteigend, da  
+            <ul>
+                <li>größere Werte nach rechts verschoben werden</li>
+                <li>kleine Werte links, Große Werte rechts</li>
+                → aufsteigend
+            </ul></p>
+    </section>
+    <section data-auto-animate="">
+        <p>Laufzeiten?</p>
+
+        <p>1. Günstigster Fall: Werte schon vorsortiert</p>
+        <ul>
+            <li>Äußere Schleife: Nur einmal</li>
+            <li>Innere Schleife: n-1 mal</li>
+        </ul>
+        <p>→ Laufzeitverhalten: Linear mit n-1</p>
+    </section>
+    <section data-auto-animate="">
+        <p>Laufzeiten?</p>
+
+        <p>2. Ungünstigster Fall: Werte falschherum sortiert</p>
+        <p>Äußere Schleife: 1-n mal</p>
+        <p>Innere Schleife: jedes Mal: (n-1)-1</p>
+
+        <p>Bsp: (n-1) + (n-2) + (n-3) + ... + (n-(n-1))</p>
+        <p>Andersherum: 1 + 2 + 3 + ... + n-1</p>
+
+        <p>→ Laufzeitverhalten: Laut Lösung quadratisch?</p>
+    </section>
+
+
+
+  </div>
+</div>
+
+<script src="../../reveal.js-library/dist/reveal.js"></script>
+<script src="../../reveal.js-library/plugin/zoom/zoom.js"></script>
+<script src="../../reveal.js-library/plugin/notes/notes.js"></script>
+<script src="../../reveal.js-library/plugin/search/search.js"></script>
+<script src="../../reveal.js-library/plugin/markdown/markdown.js"></script>
+<script src="../../reveal.js-library/plugin/highlight/highlight.js"></script>
+<script>
+
+    // Also available as an ES module, see:
+    // https://revealjs.com/initialization/
+
+    Reveal.initialize({
+        controls: false,
+        progress: false,
+        center: true,
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight]
+    });
+
+</script>
+</body>
+
+</html>
