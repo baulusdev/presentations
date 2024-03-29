@@ -18,6 +18,7 @@ This is the repository where my presentations live. These are mostly school pres
 	* [Struktogramme 🇩🇪](https://github.com/baulusdev/presentations/tree/main/informatik/struktogramme/), View it [here](https://baulusdev.github.io/presentations/informatik/struktogramme/)
 	* [OSI-Modell 🇩🇪](https://github.com/baulusdev/presentations/tree/main/informatik/osi-modell/), View it [here](https://baulusdev.github.io/presentations/informatik/osi-modell/)
 	* [Abiaufgaben Erklärung 🇩🇪](https://github.com/baulusdev/presentations/tree/main/informatik/abiaufgaben-erklaerung/), View it [here](https://baulusdev.github.io/presentations/informatik/abiaufgaben-erklaerung/)
+	* [Abiaufgaben Erklärung 2 🇩🇪](https://github.com/baulusdev/presentations/tree/main/informatik/abiaufgaben-erklaerung-2/), View it [here](https://baulusdev.github.io/presentations/informatik/abiaufgaben-erklaerung-2/)
 * Musik:
 	* [Verfemte Musik 🇩🇪](https://github.com/baulusdev/presentations/tree/main/musik/verfemte-musik), View it [here](https://baulusdev.github.io/presentations/musik/verfemte-musik/)
 * W-Seminar:
